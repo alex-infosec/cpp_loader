@@ -1,0 +1,288 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+
+# Make data base, printed on Sat Nov  8 17:02:42 2025
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# makefile (from `Makefile', line 2)
+SRC = src/main.cpp
+# makefile (from `Makefile', line 1)
+TARGET = cpp_loader
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/a/cpp_loader
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"userLocale":"en-gb","osLocale":"en-gb","resolvedLanguage":"en","defaultMessagesFile":"/private/var/folders/05/j5v87n9172sbkw15crhk8qzm0000gn/T/AppTranslocation/4F8DF69A-1F5D-475B-9FBD-9685BCE8346A/d/Visual Studio Code.app/Contents/Resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+INFOPATH = /usr/local/share/info:
+# environment
+VSCODE_CWD = /
+# environment
+GSETTINGS_SCHEMA_DIR = /opt/anaconda3/share/glib-2.0/schemas
+# environment
+PATH = /Users/a/emsdk:/Users/a/emsdk/upstream/emscripten:/Users/a/emsdk/node/22.16.0_64bit/bin:/Applications/ArmGNUToolchain/15.3.Rel1/arm-none-eabi/bin:/opt/anaconda3/bin:/opt/anaconda3/condabin:/usr/local/bin:/usr/local/sbin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Library/TeX/texbin:/Users/a/.local/bin
+# environment
+EMSDK_NODE = /Users/a/emsdk/node/22.16.0_64bit/bin/node
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.9CbBWqyxCl/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+CONDA_EXE = /opt/anaconda3/bin/conda
+# environment
+SSL_CERT_FILE = /Users/a/emsdk/python/3.13.3_64bit/lib/python3.13/site-packages/certifi/cacert.pem
+# environment
+PWD = /Users/a/cpp_loader
+# environment
+HOMEBREW_CELLAR = /usr/local/Cellar
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+EMSDK_PYTHON = /Users/a/emsdk/python/3.13.3_64bit/bin/python3
+# environment
+MANPATH = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/share/man:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/usr/share/man:/Applications/Xcode.app/Contents/Developer/usr/share/man:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/share/man:
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/a
+# default
+MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/a/Library/Application Support/Code/CachedData/384ff7382de624fb94dbaf6da11977bba1ecd427
+# environment
+LOGNAME = a
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+CONDA_PROMPT_MODIFIER = (base) 
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+CONDA_DEFAULT_ENV = base
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = a
+# makefile
+.DEFAULT_GOAL := all
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+CONDA_SHLVL = 1
+# default
+MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/05/j5v87n9172sbkw15crhk8qzm0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/a/Library/Application Support/Code/1.94-main.sock
+# environment
+MallocNanoZone = 0
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.31505000.31505006
+# environment
+HOMEBREW_PREFIX = /usr/local
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+HOMEBREW_REPOSITORY = /usr/local/Homebrew
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0:2
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# environment
+CONDA_PYTHON_EXE = /opt/anaconda3/bin/python
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# environment
+PICO_SDK_PATH = /Users/a/pico/pico-sdk
+# environment
+CONDA_PREFIX = /opt/anaconda3
+# environment
+EMSDK = /Users/a/emsdk
+# environment
+VSCODE_PID = 951
+# environment
+LANG = C
+# variable set hash-table stats:
+# Load=78/1024=8%, Rehash=0, Collisions=2/105=2%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777220, inode 48476838): 12 files, no impossibilities.
+
+# 12 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all: cpp_loader.js
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2025-11-08 14:14:04
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+debug:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 10):
+	em++ $(SRC) -std=c++17 --bind -sFETCH=1 -O0 -g -sASSERTIONS=1 -o $(TARGET).js
+	
+
+cpp_loader.js: src/main.cpp src/gator.h
+#  Implicit rule search has not been done.
+#  Last modified 2025-11-08 14:25:08
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 7):
+	em++ $(SRC) -std=c++17 -o $(TARGET).js --bind -s FETCH
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 16):
+	rm -f $(TARGET).js $(TARGET).wasm
+	
+
+# Not a target:
+src/main.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2025-11-08 13:57:27
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+serve:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 13):
+	python3 -m http.server
+	
+
+# Not a target:
+src/gator.h:
+#  Implicit rule search has been done.
+#  Last modified 2025-11-04 13:06:19
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# files hash-table stats:
+# Load=10/1024=1%, Rehash=0, Collisions=0/26=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+ 
+# Finished Make data base on Sat Nov  8 17:02:42 2025
+
+ 

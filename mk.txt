@@ -1,0 +1,13 @@
+TARGET=cpp_loader
+SRC=src/main.cpp
+
+all: $(TARGET).js
+
+$(TARGET).js: $(SRC) src/gator.h
+	em++ $(SRC) -o $(TARGET).js -lembind -s FETCH
+
+serve:
+	python3 -m http.server
+
+clean:
+	rm -f $(TARGET).js $(TARGET).wasm

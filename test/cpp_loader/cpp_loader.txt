@@ -1,0 +1,18 @@
+<!doctype html><html><head><meta charset="utf-8"><title>cpp_loader</title></head>
+<body>
+  <h3>Header image</h3>
+  <canvas id="headerCanvas" width="256" height="256"></canvas>
+  <h3>From URL (.rgba)</h3>
+  <canvas id="urlCanvas" width="256" height="256"></canvas>
+
+  <script>
+    var Module = {
+      onRuntimeInitialized() {
+        Module.displayHeaderImage("headerCanvas");
+        Module.initiateImageLoad("gator.rgba","urlCanvas");
+      }
+    };
+  </script>
+  <script src="cpp_loader.js"></script>
+</body></html>
+
